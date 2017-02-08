@@ -2,9 +2,9 @@
 
 Data collection is hard.
 
-In a containerized environment, each deployed application likely have their own way to compose their logging messages, in other words, each application unit use their own format to write messages.
+In a containerized environment, each deployed application likely have their own way to compose their logging messages, in other words, each application unit use their own format to write messages. Collect these logs, parse and distribute them have it own complexity; that's why Fluentd exists.
 
-[Fluentd](http://www.fluentd.org) is a flexible and safe solution that can deal with:
+[Fluentd](http://www.fluentd.org) is a flexible and reliable solution that can deal with:
 
 - Different sources of information: logs, tcp, syslog...
 - Different data formats: raw text, json, msgpack...

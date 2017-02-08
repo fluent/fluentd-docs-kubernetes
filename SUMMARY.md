@@ -1,8 +1,8 @@
 # Summary
 
 * [Kubernetes Logging with Fluentd](README.md)
-* About
-    * [Why ?](about/why.md)
-    * [Fluentd & Fluent Bit](about/fluentd_and_fluentbit.md)
+    * [Why Fluentd ?](about/why.md)
     * [License](about/license.md)
 * [Getting Started](getting_started/README.md)
+    * [Fluentd Daemonset](getting_started/fluentd_daemonset.md)
+    * [Deploy Fluentd](getting_started/deploy.md)
